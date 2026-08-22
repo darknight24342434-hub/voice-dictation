@@ -1,0 +1,45 @@
+{
+  "hotkey": "right windows+alt",
+  "hotkey_label": "右Win+Alt",
+  "hotkey_suppress": true,
+  "sample_rate": 16000,
+  "channels": 1,
+  "input_device": null,
+  "language": "auto",
+  "beep": true,
+  "stt": {
+    "preferred_model": "large-v3-turbo",
+    "fallback_model": "medium",
+    "cpu_model": "small",
+    "cpu_compute_type": "int8",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "min_free_vram_mb_for_large": 2500,
+    "beam_size": 5,
+    "vad_filter": true,
+    "download_root": "app/.cache/faster-whisper"
+  },
+  "polish": {
+    "enabled": true,
+    "engine": "rules",
+    "ollama_url": "http://127.0.0.1:11434",
+    "ollama_model": "qwen2.5:1.5b",
+    "ollama_num_gpu": null,
+    "ollama_keep_alive": "30m",
+    "timeout_seconds": 30,
+    "rules_fallback": true
+  },
+  "inject": {
+    "method": "type",
+    "copy_settle_seconds": 0.12,
+    "restore_delay_seconds": 0.7,
+    "paste_hotkey": "ctrl+v",
+    "type_interval_seconds": 0.03
+  },
+  "paths": {
+    "temp_dir": "_temp",
+    "log_dir": "app/logs",
+    "lexicon": "app/lexicon.txt",
+    "corrections": "app/corrections.txt"
+  }
+}

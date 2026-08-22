@@ -1,0 +1,7 @@
+# 詞庫：一行一個專有名詞，會餵給 Whisper 當作提示，提高辨識率。
+# Lexicon: one proper noun per line, fed to Whisper as a prompt.
+# 換成你自己常講的人名、產品名、專案代號。
+Claude Code
+faster-whisper
+Ollama
+PySide6

@@ -1,0 +1,6 @@
+# 誤聽校正表：一行一條，格式「錯誤詞=正確詞」，轉寫後自動替換
+# Correction table: one rule per line, "misheard=correct", applied after transcription.
+# 常被聽錯的專有名詞加在這裡，存檔後下一次轉寫立即生效。
+CloudCode=Claude Code
+Cloud Code=Claude Code
+克勞德=Claude

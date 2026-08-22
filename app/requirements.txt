@@ -1,0 +1,9 @@
+faster-whisper==1.2.1
+sounddevice==0.5.5
+numpy==2.4.6
+pyperclip==1.11.0
+keyboard==0.13.5
+pystray==0.19.5
+pillow==12.3.0
+requests==2.34.2
+opencc-python-reimplemented==0.1.7
