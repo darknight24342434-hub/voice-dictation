@@ -94,6 +94,9 @@ All of these are gitignored.
 
 ## Smoke test
 
+There is no pytest suite. The check below is a script you run by hand; `pytest.ini` keeps
+pytest from trying to import it, because doing so would pull in the whole runtime.
+
 ```powershell
 app\.venv\Scripts\python.exe app\smoke_test.py
 ```
